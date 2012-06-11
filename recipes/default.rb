@@ -1,10 +1,6 @@
 packages = Array.new
 
 case node[:lsb][:codename]
-when "lucid"
-  packages |= %w/
-    libp11-kit0
-  /
 when "precise"
   packages |= %w/
     libp11-kit0
